@@ -1,0 +1,651 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26281255600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email\u0027]\"}\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [116e9eaed3d7b92d074b7307456c1991, findElement {using\u003dname, value\u003demail}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:60857}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\srira\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60857/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 116e9eaed3d7b92d074b7307456c1991\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.utilities.BaseClass.EnterText(BaseClass.java:62)\r\n\tat org.execution.Project.user_enter_valid_username_and_password(Project.java:37)\r\n\tat ✽.User enter valid username and password(file:src/test/resources/Feature/Addtocart.feature:6)\r\n",
+              "duration": 10130321000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1906800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:37:25.416Z",
+        "line": 10,
+        "name": "Add product to addtocart",
+        "description": "",
+        "id": "to-verify-the-addtocart-functionality-of-the-application;add-product-to-addtocart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1771200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User search one product",
+            "match": {
+              "location": "Project.user_search_one_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1025800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click search button",
+            "match": {
+              "location": "Project.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Select one product",
+            "match": {
+              "location": "Project.select_one_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 718100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Click Add to cart",
+            "match": {
+              "location": "Project.click_Add_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the addtocart functionality of the application",
+    "description": "",
+    "id": "to-verify-the-addtocart-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Addtocart.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18946489500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:38:01.902Z",
+        "line": 7,
+        "name": "To verify valid crendentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;to-verify-valid-crendentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email\u0027]\"}\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [2cc577da08aaf02593966ed7e0b251bb, findElement {using\u003dname, value\u003demail}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:61668}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\srira\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61668/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2cc577da08aaf02593966ed7e0b251bb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.utilities.BaseClass.EnterText(BaseClass.java:62)\r\n\tat org.execution.Project.user_enter_valid_username_and_password(Project.java:37)\r\n\tat ✽.User enter valid username and password(file:src/test/resources/Feature/LoginEg.feature:9)\r\n",
+              "duration": 10037752300,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1096700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20680072000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:38:30.906Z",
+        "line": 14,
+        "name": "To verify invalid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;to-verify-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027email\u0027]\"}\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [bfb38f7ef6e243eb7db8ec5f005a9af5, findElement {using\u003dname, value\u003demail}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:62522}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\srira\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62522/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bfb38f7ef6e243eb7db8ec5f005a9af5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.utilities.BaseClass.EnterText(BaseClass.java:62)\r\n\tat org.execution.Project.user_enter_invalid_username_and_password(Project.java:60)\r\n\tat ✽.User enter invalid username and password(file:src/test/resources/Feature/LoginEg.feature:16)\r\n",
+              "duration": 10064003800,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "User enter invalid username and password",
+            "match": {
+              "location": "Project.user_enter_invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1109100,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1004700,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User sees error page",
+            "match": {
+              "location": "Project.user_sees_error_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login functionality",
+    "description": "",
+    "id": "to-verify-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/LoginEg.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26642406800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.name: email\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.utilities.BaseClass.EnterText(BaseClass.java:62)\r\n\tat org.execution.Project.user_enter_valid_username_and_password(Project.java:37)\r\n\tat ✽.User enter valid username and password(file:src/test/resources/Feature/SearchEg.feature:6)\r\n",
+              "duration": 953108800,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2733500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:39:01.673Z",
+        "line": 17,
+        "name": "To verify the search bar",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-bar;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1656600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enter the \"earphones\" in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"earphones\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Project.user_enter_the_in_search_bar(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5177100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click search button",
+            "match": {
+              "location": "Project.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1546400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User sees the results based on \"earphones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"earphones\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Project.user_sees_the_results_based_on(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [6ce40abbf7075bfc29975663dbc387d4, findElement {using\u003dxpath, value\u003d//i[@class\u003d\u0027icon-Close\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:64409}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\srira\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64409/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 6ce40abbf7075bfc29975663dbc387d4\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat org.execution.Project.user_launches_application(Project.java:28)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)\r\n",
+              "duration": 7036196800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1199700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 673500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1105600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:39:29.316Z",
+        "line": 18,
+        "name": "To verify the search bar",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-bar;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1266700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enter the \"smartwatch\" in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smartwatch\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Project.user_enter_the_in_search_bar(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 821100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click search button",
+            "match": {
+              "location": "Project.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 838900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User sees the results based on \"smartwatch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smartwatch\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Project.user_sees_the_results_based_on(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [0d4ab3392925468ba7fd21ae86fa041b, findElement {using\u003dxpath, value\u003d//i[@class\u003d\u0027icon-Close\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:64517}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\srira\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0d4ab3392925468ba7fd21ae86fa041b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat org.execution.Project.user_launches_application(Project.java:28)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)\r\n",
+              "duration": 5427131200,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 705900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 950900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:39:36.371Z",
+        "line": 27,
+        "name": "To verify the search using category and subcategory navigation",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-using-category-and-subcategory-navigation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1239700,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User click the category \"Cellphone \u0026 Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cellphone \u0026 Accessories\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Project.user_click_the_category(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1984300,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User click the sub-category \"iPhone Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone Accessories\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Project.user_click_the_sub_category(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3499000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User sees results based on \"Cellphone \u0026 Accessories\" and \"iPhone Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cellphone \u0026 Accessories\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"iPhone Accessories\"",
+                  "offset": 57
+                }
+              ],
+              "location": "Project.user_sees_results_based_on_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the search functionality of the application",
+    "description": "",
+    "id": "to-verify-the-search-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/SearchEg.feature",
+    "tags": []
+  }
+]

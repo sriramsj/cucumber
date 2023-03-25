@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="6" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="13.061363">
+<testcase classname="To verify the addtocart functionality of the application" name="Add product to addtocart" time="4.767434">
+<failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65161/devtools/browser/f5730f55-f185-4f0c-a40d-2e94f3cf98e5&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: driver.version: ChromeDriver&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)&#13;&#10;&#9;at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)&#13;&#10;&#9;at java.util.Optional.map(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)&#13;&#10;&#9;at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)&#13;&#10;&#9;at org.execution.Project.user_launches_application(Project.java:24)&#13;&#10;&#9;at ✽.User launches application(file:src/test/resources/Feature/Addtocart.feature:5)&#13;&#10;"><![CDATA[Given User launches application.............................................failed
+And User enter valid username and password..................................skipped
+And Click login button......................................................skipped
+Then User sees home page....................................................skipped
+When User search one product................................................skipped
+And User click search button................................................skipped
+And Select one product......................................................skipped
+And Click Add to cart.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65161/devtools/browser/f5730f55-f185-4f0c-a40d-2e94f3cf98e5
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)
+	at org.execution.Project.user_launches_application(Project.java:24)
+	at ✽.User launches application(file:src/test/resources/Feature/Addtocart.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="To verify the login functionality" name="To verify valid crendentials" time="1.586954">
+<failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65178/devtools/browser/e80034f9-641e-4d35-98e8-0c49ae866e11&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: driver.version: ChromeDriver&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)&#13;&#10;&#9;at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)&#13;&#10;&#9;at java.util.Optional.map(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)&#13;&#10;&#9;at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)&#13;&#10;&#9;at org.execution.Project.user_launches_application(Project.java:24)&#13;&#10;&#9;at ✽.User launches application(file:src/test/resources/Feature/LoginEg.feature:5)&#13;&#10;"><![CDATA[Given User launches application.............................................failed
+When User enter valid username and password.................................skipped
+And Click login button......................................................skipped
+Then User sees home page....................................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65178/devtools/browser/e80034f9-641e-4d35-98e8-0c49ae866e11
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)
+	at org.execution.Project.user_launches_application(Project.java:24)
+	at ✽.User launches application(file:src/test/resources/Feature/LoginEg.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="To verify the login functionality" name="To verify invalid credentials" time="1.617559">
+<failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65195/devtools/browser/99097261-19cc-47b0-9906-36f8343b8f28&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: driver.version: ChromeDriver&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)&#13;&#10;&#9;at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)&#13;&#10;&#9;at java.util.Optional.map(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)&#13;&#10;&#9;at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)&#13;&#10;&#9;at org.execution.Project.user_launches_application(Project.java:24)&#13;&#10;&#9;at ✽.User launches application(file:src/test/resources/Feature/LoginEg.feature:5)&#13;&#10;"><![CDATA[Given User launches application.............................................failed
+When User enter invalid username and password...............................skipped
+And Click login button......................................................skipped
+Then User sees error page...................................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65195/devtools/browser/99097261-19cc-47b0-9906-36f8343b8f28
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)
+	at org.execution.Project.user_launches_application(Project.java:24)
+	at ✽.User launches application(file:src/test/resources/Feature/LoginEg.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="To verify the search functionality of the application" name="To verify the search bar" time="1.565613">
+<failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65212/devtools/browser/2e4747c8-8f4e-45df-a27d-ded72e8c57d9&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: driver.version: ChromeDriver&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)&#13;&#10;&#9;at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)&#13;&#10;&#9;at java.util.Optional.map(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)&#13;&#10;&#9;at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)&#13;&#10;&#9;at org.execution.Project.user_launches_application(Project.java:24)&#13;&#10;&#9;at ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)&#13;&#10;"><![CDATA[Given User launches application.............................................failed
+And User enter valid username and password..................................skipped
+And Click login button......................................................skipped
+And User sees home page.....................................................skipped
+When User enter the "earphones" in search bar...............................skipped
+And User click search button................................................skipped
+Then User sees the results based on "earphones".............................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65212/devtools/browser/2e4747c8-8f4e-45df-a27d-ded72e8c57d9
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)
+	at org.execution.Project.user_launches_application(Project.java:24)
+	at ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="To verify the search functionality of the application" name="To verify the search bar 2" time="1.648294">
+<failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65229/devtools/browser/dde68991-5211-466c-874a-9fda10275199&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: driver.version: ChromeDriver&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)&#13;&#10;&#9;at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)&#13;&#10;&#9;at java.util.Optional.map(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)&#13;&#10;&#9;at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)&#13;&#10;&#9;at org.execution.Project.user_launches_application(Project.java:24)&#13;&#10;&#9;at ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)&#13;&#10;"><![CDATA[Given User launches application.............................................failed
+And User enter valid username and password..................................skipped
+And Click login button......................................................skipped
+And User sees home page.....................................................skipped
+When User enter the "smartwatch" in search bar..............................skipped
+And User click search button................................................skipped
+Then User sees the results based on "smartwatch"............................skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65229/devtools/browser/dde68991-5211-466c-874a-9fda10275199
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)
+	at org.execution.Project.user_launches_application(Project.java:24)
+	at ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="To verify the search functionality of the application" name="To verify the search using category and subcategory navigation" time="1.875509">
+<failure message="org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65244/devtools/browser/7ef10ade-5baa-4cfd-a3cd-95456884db2b&#10;Build info: version: '4.7.2', revision: '4d4020c3b7'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'&#10;Driver info: driver.version: ChromeDriver&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)&#13;&#10;&#9;at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)&#13;&#10;&#9;at java.util.Optional.map(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)&#13;&#10;&#9;at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)&#13;&#10;&#9;at org.execution.Project.user_launches_application(Project.java:24)&#13;&#10;&#9;at ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)&#13;&#10;"><![CDATA[Given User launches application.............................................failed
+And User enter valid username and password..................................skipped
+And Click login button......................................................skipped
+And User sees home page.....................................................skipped
+When User click the category "Cellphone & Accessories"......................skipped
+And User click the sub-category "iPhone Accessories"........................skipped
+Then User sees results based on "Cellphone & Accessories" and "iPhone Accessories".skipped
+
+StackTrace:
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65244/devtools/browser/7ef10ade-5baa-4cfd-a3cd-95456884db2b
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
+	at org.utilities.BaseClass.launchBrowser(BaseClass.java:47)
+	at org.execution.Project.user_launches_application(Project.java:24)
+	at ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

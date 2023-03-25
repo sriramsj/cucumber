@@ -1,0 +1,651 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65161/devtools/browser/f5730f55-f185-4f0c-a40d-2e94f3cf98e5\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.util.Optional.map(Unknown Source)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat org.utilities.BaseClass.launchBrowser(BaseClass.java:47)\r\n\tat org.execution.Project.user_launches_application(Project.java:24)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/Addtocart.feature:5)\r\n",
+              "duration": 4691328300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1453900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1027700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1257700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:51:37.945Z",
+        "line": 10,
+        "name": "Add product to addtocart",
+        "description": "",
+        "id": "to-verify-the-addtocart-functionality-of-the-application;add-product-to-addtocart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1150700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User search one product",
+            "match": {
+              "location": "Project.user_search_one_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 566300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click search button",
+            "match": {
+              "location": "Project.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Select one product",
+            "match": {
+              "location": "Project.select_one_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 877200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Click Add to cart",
+            "match": {
+              "location": "Project.click_Add_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the addtocart functionality of the application",
+    "description": "",
+    "id": "to-verify-the-addtocart-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Addtocart.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65178/devtools/browser/e80034f9-641e-4d35-98e8-0c49ae866e11\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.util.Optional.map(Unknown Source)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat org.utilities.BaseClass.launchBrowser(BaseClass.java:47)\r\n\tat org.execution.Project.user_launches_application(Project.java:24)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/LoginEg.feature:5)\r\n",
+              "duration": 1569111600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:51:42.722Z",
+        "line": 7,
+        "name": "To verify valid crendentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;to-verify-valid-crendentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1841300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 799200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65195/devtools/browser/99097261-19cc-47b0-9906-36f8343b8f28\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.util.Optional.map(Unknown Source)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat org.utilities.BaseClass.launchBrowser(BaseClass.java:47)\r\n\tat org.execution.Project.user_launches_application(Project.java:24)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/LoginEg.feature:5)\r\n",
+              "duration": 1604803400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:51:44.312Z",
+        "line": 14,
+        "name": "To verify invalid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality;to-verify-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1400400,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User enter invalid username and password",
+            "match": {
+              "location": "Project.user_enter_invalid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 648300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 657000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User sees error page",
+            "match": {
+              "location": "Project.user_sees_error_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login functionality",
+    "description": "",
+    "id": "to-verify-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/LoginEg.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65212/devtools/browser/2e4747c8-8f4e-45df-a27d-ded72e8c57d9\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.util.Optional.map(Unknown Source)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat org.utilities.BaseClass.launchBrowser(BaseClass.java:47)\r\n\tat org.execution.Project.user_launches_application(Project.java:24)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)\r\n",
+              "duration": 1543970400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 666300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 657200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 619500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:51:45.934Z",
+        "line": 17,
+        "name": "To verify the search bar",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-bar;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1484100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enter the \"earphones\" in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"earphones\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Project.user_enter_the_in_search_bar(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 637800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click search button",
+            "match": {
+              "location": "Project.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610800,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User sees the results based on \"earphones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"earphones\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Project.user_sees_the_results_based_on(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65229/devtools/browser/dde68991-5211-466c-874a-9fda10275199\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.util.Optional.map(Unknown Source)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat org.utilities.BaseClass.launchBrowser(BaseClass.java:47)\r\n\tat org.execution.Project.user_launches_application(Project.java:24)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)\r\n",
+              "duration": 1637883400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 702500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 589300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 596100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:51:47.502Z",
+        "line": 18,
+        "name": "To verify the search bar",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-bar;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1283100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enter the \"smartwatch\" in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smartwatch\"",
+                  "offset": 15
+                }
+              ],
+              "location": "Project.user_enter_the_in_search_bar(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 578700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User click search button",
+            "match": {
+              "location": "Project.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User sees the results based on \"smartwatch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smartwatch\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Project.user_sees_the_results_based_on(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65244/devtools/browser/7ef10ade-5baa-4cfd-a3cd-95456884db2b\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.\u003cinit\u003e(NettyWebSocket.java:102)\r\n\tat org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)\r\n\tat org.openqa.selenium.devtools.Connection.\u003cinit\u003e(Connection.java:78)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)\r\n\tat java.util.Optional.map(Unknown Source)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:114)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:50)\r\n\tat org.utilities.BaseClass.launchBrowser(BaseClass.java:47)\r\n\tat org.execution.Project.user_launches_application(Project.java:24)\r\n\tat ✽.User launches application(file:src/test/resources/Feature/SearchEg.feature:5)\r\n",
+              "duration": 1856844800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "Project.user_launches_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 898300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "Project.user_enter_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1687500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Project.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User sees home page",
+            "match": {
+              "location": "Project.user_sees_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:51:49.153Z",
+        "line": 27,
+        "name": "To verify the search using category and subcategory navigation",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-using-category-and-subcategory-navigation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1282600,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User click the category \"Cellphone \u0026 Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cellphone \u0026 Accessories\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Project.user_click_the_category(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 857000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User click the sub-category \"iPhone Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone Accessories\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Project.user_click_the_sub_category(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 829200,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User sees results based on \"Cellphone \u0026 Accessories\" and \"iPhone Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cellphone \u0026 Accessories\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"iPhone Accessories\"",
+                  "offset": 57
+                }
+              ],
+              "location": "Project.user_sees_results_based_on_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the search functionality of the application",
+    "description": "",
+    "id": "to-verify-the-search-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/SearchEg.feature",
+    "tags": []
+  }
+]
